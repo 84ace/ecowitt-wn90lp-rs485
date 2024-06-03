@@ -6,7 +6,6 @@ int values:  [4409, 30, 629, 43, 0, 0, 150, 0, 39]
 Light (Lux): 44090, UVI %: 3.0, Temperature (C): 22.900000000000002, Humidity %: 43, Wind Speed (m/s): 0.0, Gust Speed (m/s): 0.0, Wind Direction: 15.0, Rainfall (/12h): 0.0, ABS Pressure (hPa): 3.9000000000000004
 """
 
-
 # to install PySerial: python -m pip install pyserial
 import serial
 
