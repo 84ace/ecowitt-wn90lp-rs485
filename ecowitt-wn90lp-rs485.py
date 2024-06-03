@@ -19,7 +19,7 @@ ser = serial.Serial(
 )
 
 # Construct the Modbus message to read a register
-# This grabs the first 7 registers
+# This grabs the first 8 registers
 message = (0x90, 0x03, 0x01, 0x65, 0x00, 0x09, 0x88, 0xAE)
 
 # from https://osswww.ecowitt.net/uploads/20231122/WS90ModbusRTU_V1.0.5_En.pdf
